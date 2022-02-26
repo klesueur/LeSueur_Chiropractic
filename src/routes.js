@@ -12,9 +12,9 @@ import Services from './components/Services/Services';
 export default (
     <Routes>
 
-        <Route path='/' element={Landing} />
-        <Route path='/aboutus' element={AboutUs} />
-        <Route path='./services' element={Services} />
+        <Route exact path='/' element={ <Landing /> } component={Landing} />
+        <Route path='/services' element={ <Services /> } component={Services} />
+        <Route path='/aboutus' element={ <AboutUs /> } component={AboutUs} />
 
     </Routes>
 )

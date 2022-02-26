@@ -5,7 +5,8 @@ const AboutUs = () => {
 
     return(
         <div>
-            AboutUs Component
+            About_Us Component
+            {console.log('About_Us page fired')}
         </div>
     )
 };

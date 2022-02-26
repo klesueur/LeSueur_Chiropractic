@@ -6,6 +6,7 @@ const Services = () => {
     return (
         <div>
             Services Component
+            {console.log('services page fired')}
         </div>
     )
 };
