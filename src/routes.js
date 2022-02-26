@@ -8,13 +8,10 @@ import Services from './components/Services/Services';
 
 
 
-
 export default (
     <Routes>
-
         <Route exact path='/' element={ <Landing /> } component={Landing} />
         <Route path='/services' element={ <Services /> } component={Services} />
         <Route path='/aboutus' element={ <AboutUs /> } component={AboutUs} />
-
     </Routes>
-)
+);
