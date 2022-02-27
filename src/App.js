@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
+import './Reset.css';
 import routes from './routes';
 import NavBar from './components/NavBar/NavBar';
 
@@ -8,8 +9,12 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar />
-      { routes }
+      <div className="header">
+        <NavBar />
+      </div>
+      <div className="routes-view">
+        { routes }
+      </div>
     </div>
   );
 }

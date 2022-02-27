@@ -1,0 +1,23 @@
+
+/* Component Style Sheet Imports */
+
+
+
+/* Theme Variables */
+
+
+
+/* App Styling */
+
+.App {
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    height: 20vh;
+}
+
+.routes-view {
+    height: 80vh;
+}
