@@ -16,8 +16,13 @@
 
 .header {
     height: 20vh;
+    background-image:
+        url('../assets/lost-dutchman_flower_colored-cropped.jpg');
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
 }
 
 .routes-view {
     height: 80vh;
+    /* padding: 15px; */
 }

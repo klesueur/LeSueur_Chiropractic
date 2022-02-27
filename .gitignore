@@ -24,4 +24,4 @@ yarn-error.log*
 
 # karas files
 /server/data.json
-
+/assets
